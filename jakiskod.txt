@@ -1,0 +1,8 @@
+play_time = str2num(get(handles.edit1, 'String')); %time of playback
+temp = str2num(get(handles.edit2, 'String')); %tempo
+vol = str2num(get(handles.edit3, 'String')); %volume of playback
+
+assignin('base', 'play_time', play_time);
+assignin('base', 'temp', temp);
+assignin('base', 'vol', vol);
+assignin('base', 'instrument2', instrument2);
